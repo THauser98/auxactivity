@@ -52,6 +52,11 @@ header {
     grid-column: 4 / 5;
     grid-row: 3 / 4;
   }
+
+  main {
+      grid-column: 1 / 5;
+      grid-row: 3 / 4;
+  }
   
   footer {
     color: white;
@@ -143,6 +148,25 @@ header {
     display: flex;
     justify-content: space-between;
 
+}
+
+.containerActivity {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.containerActivity>div {
+    min-width: 10%;
+    max-width: 20%;
+    background-color: white;
+    margin: 50px;
+    margin-right: 30px;
+    padding: 50px;
+    box-shadow: 10px 10px 10px #51565C;
+    border-radius: 30px;
 }
 
 .containerArticle>div {
